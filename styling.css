@@ -1,0 +1,92 @@
+body{
+	font-family: cursive;
+}
+
+h1{
+	text-align: center;
+}
+
+.row-menubg{
+	text-align: center;
+	border-style: solid 2px;
+	margin: 10px; 
+}
+
+section{
+	margin: 20px;
+}
+
+.row-menubg > div {
+	border-style: solid;
+}
+
+.col-md-12{
+	text-align: left;
+	background-color: gray;
+}
+
+.col1{
+	background-color: pink;
+	float: right;
+}
+
+.col2{
+	background-color: red;
+	float: right;
+}
+
+.col3{
+	background-color: yellow;
+	float: right;
+}
+
+@media screen and (max-width: 767px) {
+	.c1 > .row-menubg { 
+		width: 100%;
+		float: left;
+	}
+	.c2 > .row-menubg {
+		width: 100%;
+		float: left;
+	}
+	.c3 > .row-menubg {
+		width: 100%;
+		float: left;
+	}
+}
+
+@media screen and  (min-width: 768px) and (max-width: 991px) {
+	.c1 > .row-menubg { 
+		width: 45%;
+		float: left;
+	}
+	.c2 > .row-menubg {
+		width: 45%;
+		float: right;
+	}
+	.c3 > .row-menubg {
+		width: 97.7%;
+		float: left;
+	}
+	.col-md-12 {
+		height: 150px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.c1 > .row-menubg { 
+		width: 30%;
+		float: left;
+	}
+	.c2 > .row-menubg {
+		width: 30%;
+		float: left;
+	}
+	.c3 > .row-menubg {
+		width: 30%;
+		float: left;
+	}
+	.col-md-12 {
+		height: 200px;
+	}
+}
